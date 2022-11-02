@@ -1,15 +1,13 @@
-import turtle
+import turtle as tl
 
 numsides = [3, 4, 6, 8]
-screen = turtle.Screen()
-pen = turtle.Turtle()
-sidelength = 100
+screen = tl.Screen()
+pen = tl.Turtle()
 
 for i in numsides:
-    extangle = 360 / i
     for x in range(i):
-        pen.forward(sidelength)
-        pen.left(extangle)
+        pen.forward(100)
+        pen.left(360/i)
 
 
 screen.mainloop()
