@@ -15,3 +15,5 @@ for i in range(int(input('How many more steps forward do you want to predict?'))
     pen.right(random.randint(-360, 360))
 
 screen.mainloop()
+
+# q9: 360/18
